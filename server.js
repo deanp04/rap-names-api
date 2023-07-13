@@ -40,7 +40,8 @@ app.get('/api/:name', (req, res)=>{
 
 // https://youtu.be/zHq0v5RD_Zk?t=5419 
 // \/ STEP 3 tells where to listen
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
+    // heroku /\port hangup https://youtu.be/zHq0v5RD_Zk?t=8494 
     console.log(`The server is now running on port ${PORT}! You betta go catch it!`)
 })
 
