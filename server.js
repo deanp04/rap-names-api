@@ -43,3 +43,5 @@ app.get('/api/:name', (req, res)=>{
 app.listen(PORT, ()=>{
     console.log(`The server is now running on port ${PORT}! You betta go catch it!`)
 })
+
+// HEROKU INSTRUCTIONS https://youtu.be/zHq0v5RD_Zk?t=8071 
